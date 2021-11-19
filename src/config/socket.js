@@ -1,8 +1,8 @@
-const server = require('./server');
+
 
 var connectedUsers = [];
 
-module.exports = () => {
+module.exports = (server) => {
 
     const io = require('socket.io')(server);
     console.log("socket add to server");

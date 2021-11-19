@@ -1,5 +1,5 @@
-require('./src/config/server');
-require('./src/config/socket')();
+const server = require('./src/config/server');
+require('./src/config/socket')(server);
 
 
 // mongoo connection

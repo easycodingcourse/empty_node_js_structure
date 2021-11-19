@@ -3,10 +3,10 @@ require('./src/config/socket')();
 
 
 // mongoo connection
-require('./src/config/mongoose');
+// require('./src/config/mongoose');
 
 
 /* mysql connecton test / 
 not essential / 
 only for creating table without migration */
-require('./src/db/models');
+// require('./src/db/models');

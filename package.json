@@ -1,0 +1,25 @@
+{
+    "name": "quicar_api_node_js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "create-model": "npx sequelize-cli model:generate --name mans --attributes name:string"
+    },
+    "dependencies": {
+        "axios": "^0.22.0",
+        "bcryptjs": "^2.4.3",
+        "cookie-parser": "^1.4.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "http-errors": "^1.8.0",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.1",
+        "mongoose": "^6.0.13",
+        "mysql2": "^2.3.0",
+        "nodemon": "^2.0.13",
+        "sequelize": "^6.6.5",
+        "socket.io": "^4.3.2"
+    },
+    "devDependencies": {
+        "sequelize-cli": "^6.2.0"
+    }
+}
